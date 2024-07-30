@@ -3,6 +3,8 @@ import {BiHomeCircle,BiHash,BiUser} from "react-icons/bi"
 import {BsBell, BsEnvelope, BsBookmark} from "react-icons/bs"
 import FeedCard from "@/components/FeedCard";
 import { SlOptions } from "react-icons/sl";
+import {GoogleLogin} from "@react-oauth/google"
+import { LoginButton } from "@/components/login";
 
 interface SideBarButton {
   title: string;
@@ -80,7 +82,9 @@ export default function Home() {
           <FeedCard/>
 
         </div>
-        <div className="col-span-3"></div>
+        <div className="col-span-3">
+          <LoginButton/>
+        </div>
       </div>
     </div>
   );
