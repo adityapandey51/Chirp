@@ -4,7 +4,7 @@ import { useCallback } from "react"
 
 export const LoginButton=()=>{
     const handleLoginWithGoogle=useCallback((cred:CredentialResponse)=>{
-        
+
     },[])
     return (
         <div className="p-5 bg-slate-700 rounded-lg">
