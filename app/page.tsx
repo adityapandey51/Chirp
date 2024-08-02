@@ -42,6 +42,7 @@ const sideBarMenuItems:SideBarButton[]=[
   },
 ]
 export default function Home() {
+
   return (
     <div>
       <div className="grid grid-cols-12 px-56 h-screen w-screen">
@@ -83,7 +84,7 @@ export default function Home() {
 
         </div>
         <div className="col-span-3">
-          <LoginButton/>
+        <LoginButton/>
         </div>
       </div>
     </div>
