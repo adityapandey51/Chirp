@@ -5,6 +5,7 @@ import FeedCard from "@/components/FeedCard";
 import { SlOptions } from "react-icons/sl";
 import {GoogleLogin} from "@react-oauth/google"
 import { LoginButton } from "@/components/login";
+import { LoggedInBatch } from "@/components/loggedinBatch";
 
 interface SideBarButton {
   title: string;
@@ -69,6 +70,7 @@ export default function Home() {
                 Chirp
               </button>
             </div>
+            <LoggedInBatch/>
           </div>
         </div>
         <div className="col-span-5 border-r-[1px] border-l-[1px] h-screen overflow-y-scroll no-scrollbar border-gray-600">
